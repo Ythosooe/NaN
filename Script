@@ -1,0 +1,79 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("Pop it trading buy item","DarkTheme")
+
+--Tabs
+
+local Tab1 = window:NewTab("Box toy")
+local Tab1Section = Tab1:NewSection("Box toy items")
+local Tab2 = window:NewTab("Alphabet")
+local Tab2Section = Tab2:NewSection("Alphabet items")
+local Tab3 = window:NewTab("codes")
+local Tab3Section = Tab3:NewSection("codes items")
+local Tab4 = window:NewTab("Credit")
+local Tab4Section = Tab4:NewSection("by Ythosooe")
+
+--Buttons
+
+Tab1Section:NewButton("Buy Box Toy Harambe","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Box Toy Harambe")
+end)
+
+Tab1Section:NewButton("Buy Box Toy Sanic","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Box Toy Sanic")
+end)
+
+Tab1Section:NewButton("Buy Box Toy Egg","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Box Toy Egg")
+end)
+
+Tab1Section:NewButton("Buy Box Toy Noob","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Box Toy Noob")
+end)
+
+Tab1Section:NewButton("Buy Box Toy SandMan","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Box Toy SandMan")
+end)
+
+Tab1Section:NewButton("Buy Box Toy Lem","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Box Toy Lem")
+end)
+
+Tab1Section:NewButton("Buy Box Toy Box Toy","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Box Toy Box Toy")
+end)
+
+Tab1Section:NewButton("Buy Box Toy Air","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Box Toy Air")
+end)
+
+Tab2Section:NewButton("Buy F","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("F")
+end)
+
+Tab2Section:NewButton("Buy A","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("A")
+end)
+
+Tab2Section:NewButton("Buy B","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("B")
+end)
+
+Tab2Section:NewButton("Buy E","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("E")
+end)
+
+Tab2Section:NewButton("Buy D","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("D")
+end)
+
+Tab2Section:NewButton("C","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("C")
+end)
+
+Tab3Section:NewButton("Buy XOX Controller","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("XOX Controller")
+end)
+
+Tab3Section:NewButton("Buy Inxta","Brofte patched December",function()
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer("Inxta")
+end)
